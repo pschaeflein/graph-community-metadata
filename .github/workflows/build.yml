@@ -22,7 +22,7 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-      - run: npm ci
+      - run: npm run compile
       - name: Compile TypeSpec
         run: tsp compile src/main.tsp --emit @typespec/openapi3
       - name: Fix OpenAPI
