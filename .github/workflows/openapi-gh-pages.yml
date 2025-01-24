@@ -36,7 +36,7 @@ jobs:
           cache: 'npm'
       - run: npm ci
       - name: Compile TypeSpec
-        run: tsp compile src/main.tsp --emit @typespec/openapi3
+        run: npx --yes tsp compile src/main.tsp --emit @typespec/openapi3
       - name: Fix OpenAPI
         run: ./fixOpenApi.ps1
         shell: pwsh
