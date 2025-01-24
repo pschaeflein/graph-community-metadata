@@ -1,0 +1,26 @@
+name: 'Build'
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'docs/openapi.json'
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Compile TypeSpec
+        run: tsp compile src/main.tsp --emit @typespec/openapi3
+      - name: Fix OpenAPI
+        run: ./fixOpenApi.ps1
+        shell: pwsh
+      - name: Update docs
+        uses: test-room-7/action-update-file@v2.0.0

@@ -1,0 +1,46 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Build SharePointAPI client",
+      "detail": "Generate OpenAPI, run Kiota and compile the client",
+      "type": "shell",
+      "command": "./build-client.ps1",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": false
+      },
+      "problemMatcher": []
+    },
+    {
+      "type": "typespec",
+      "path": "d:/Repos/pschaeflein/graph-community-metadata/src/main.tsp",
+      "args": "--watch",
+      "problemMatcher": {
+        "owner": "tsp",
+        "fileLocation": "absolute",
+        "source": "typespec",
+        "pattern": {
+          "regexp": "^..\\/(.*.tsp):(\\d+):(\\d+) - (warning|error) (.*)$",
+          "file": 1,
+          "line": 2,
+          "column": 3,
+          "severity": 4,
+          "message": 5
+        },
+        "background": {
+          "activeOnStart": true,
+        }
+      },
+      "runOptions": {
+        "runOn": "folderOpen"
+      },
+      "isBackground": true,
+      "label": "tsp: watch - main.tsp"
+    }
+  ]
+}
