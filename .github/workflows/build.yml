@@ -17,6 +17,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '20'
+          cache: 'npm'
+      - run: npm ci
       - name: Compile TypeSpec
         run: tsp compile src/main.tsp --emit @typespec/openapi3
       - name: Fix OpenAPI
