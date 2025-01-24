@@ -1,5 +1,5 @@
-# MacOS
-.DS_Store
+# project output
+docs/openapi.json
 
 # Default TypeSpec output
 tsp-output/
@@ -7,3 +7,6 @@ dist/
 
 # Dependency directories
 node_modules/
+
+# MacOS
+.DS_Store
