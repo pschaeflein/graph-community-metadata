@@ -1,5 +1,4 @@
-# Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll with GitHub Pages dependencies preinstalled
+name: Build and Deploy
 
 on:
   # Runs on pushes targeting the default branch
@@ -36,7 +35,6 @@ jobs:
           node-version: '20'
           cache: 'npm'
       - run: npm ci
-      - run: npm run compile
       - name: Compile TypeSpec
         run: tsp compile src/main.tsp --emit @typespec/openapi3
       - name: Fix OpenAPI
@@ -44,6 +42,8 @@ jobs:
         shell: pwsh
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs/
 
   # Deployment job
   deploy:
