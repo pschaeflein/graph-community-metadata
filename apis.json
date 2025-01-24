@@ -1,0 +1,32 @@
+{
+  "aid": "graph.community",
+  "name": "Graph.Community SDK for Microsoft SharePoint REST API",
+  "description": "This repository contains an curated OpenAPI definition for SharePoint Online metadata.",
+  "image": "https://pschaeflein.github.io/graph-community-metadata/graph-community-spclient.png",
+  "tags": [
+    "Graph.Community",
+    "graph",
+    "community",
+    "sharepoint",
+    "msgraph",
+    "openapi"
+  ],
+  "apis": [
+    {
+      "aid": "graph.community:sharepoint",
+      "name": "Graph.Community SPClient ",
+      "description": "The Graph.Community OpenAPI definition helps bring the discoverable, modern Kiota-generated experience for Microsoft APIs to other endpoints.",
+      "baseUrl": "https://graph.microsoft.com/v1.0",
+      "properties": [
+        {
+          "type":"Documentation",
+          "url":"https://pschaeflein.github.io/graph-community-metadata/index.html"
+        },
+        {
+          "type": "x-openapi",
+          "url": "openapi/v1.0/openapi.yaml" // can be the relative path on the repository or a publicly accessible URL
+        }
+      ]
+    }
+  ]
+}
