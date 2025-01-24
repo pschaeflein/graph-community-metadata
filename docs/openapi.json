@@ -4,7 +4,7 @@
     "title": "Graph.Community SDK for Microsoft SharePoint REST API",
     "version": "5.2.1",
     "x-logo": {
-      "url": "https://pschaeflein.github.io/graph-community-metadata/graph-community.png",
+      "url": "https://pschaeflein.github.io/graph-community-metadata/graph-community-spclient.png",
       "backgroundColor": "#FFFFFF",
       "altText": "Graph.Community SDK for Microsoft SharePoint REST API"
     }
