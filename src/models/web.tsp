@@ -57,3 +57,10 @@ model SPWebResponse {
   ...OkResponse;
   ...Body<Web>;
 }
+
+model EnsureUserRequest {
+  /**
+   * User principal name (UPN) or email address of the user.
+   */
+  logonName: string;
+}
