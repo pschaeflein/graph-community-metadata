@@ -1,9 +1,10 @@
 {
-  "name": "graph.community.spclient",
-  "version": "5.3.0",
+  "name": "graph.community.metadata",
+  "version": "5.5.0",
   "type": "module",
   "scripts": {
-    "compile": "tsp compile src/main.tsp"
+    "compile": "tsp compile src/main.tsp",
+    "buildDocs": "tsp compile src/main.tsp && .\fixOpenApi.ps1"
   },
   "peerDependencies": {
     "@typespec/compiler": "latest",
