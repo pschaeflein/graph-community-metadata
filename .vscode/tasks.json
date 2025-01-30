@@ -2,6 +2,21 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "Build docs page",
+      "detail": "Run pwsh to fix doc",
+      "type": "shell",
+      "command": "./fixOpenApi.ps1",
+      "presentation": {
+        "echo": true,
+        "reveal": "always",
+        "focus": false,
+        "panel": "shared",
+        "showReuseMessage": true,
+        "clear": true
+      },
+      "problemMatcher": [],
+    },
+    {
       "label": "Build SharePointAPI client",
       "detail": "Generate OpenAPI, run Kiota and compile the client",
       "type": "shell",
@@ -12,7 +27,7 @@
         "focus": false,
         "panel": "shared",
         "showReuseMessage": true,
-        "clear": false
+        "clear": true
       },
       "problemMatcher": []
     },
@@ -33,7 +48,7 @@
           "message": 5
         },
         "background": {
-          "activeOnStart": true,
+          "activeOnStart": true
         }
       },
       "runOptions": {
