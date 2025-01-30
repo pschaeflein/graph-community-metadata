@@ -8,13 +8,14 @@ import "./controllers/hubSites.tsp";
 import "./controllers/lists.tsp";
 import "./controllers/sitePages.tsp";
 import "./controllers/web.tsp";
+import "./controllers/site.tsp";
 
 using TypeSpec.Http;
 using TypeSpec.OpenAPI;
 
 @service({
   title: "Graph.Community SDK for Microsoft SharePoint REST API",
-  version: "5.3.0",
+  version: "5.5.0",
 })
 @tagMetadata(
   "Lists",
@@ -47,6 +48,15 @@ using TypeSpec.OpenAPI;
   "Web",
   #{
     description: "Methods for working with the Web resource.",
+    externalDocs: #{
+      url: "https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/determine-sharepoint-rest-service-endpoint-uris?tabs=http",
+    },
+  }
+)
+@tagMetadata(
+  "Site",
+  #{
+    description: "Methods for working with the Site resource.",
     externalDocs: #{
       url: "https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/determine-sharepoint-rest-service-endpoint-uris?tabs=http",
     },
