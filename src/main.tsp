@@ -6,9 +6,11 @@ import "@typespec/openapi3";
 import "./controllers/files.tsp";
 import "./controllers/hubSites.tsp";
 import "./controllers/lists.tsp";
+import "./controllers/site.tsp";
+import "./controllers/siteDesigns.tsp";
 import "./controllers/sitePages.tsp";
 import "./controllers/web.tsp";
-import "./controllers/site.tsp";
+
 
 using TypeSpec.Http;
 using TypeSpec.OpenAPI;
@@ -17,6 +19,15 @@ using TypeSpec.OpenAPI;
   title: "Graph.Community SDK for Microsoft SharePoint REST API",
   version: "5.5.0",
 })
+@tagMetadata(
+  "Site Designs",
+  #{
+    description: "Site design and site script REST API.",
+    externalDocs: #{
+      url: "https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-design-rest-api",
+    },
+  }
+)
 @tagMetadata(
   "Lists",
   #{
