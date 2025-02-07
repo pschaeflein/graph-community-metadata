@@ -5,7 +5,7 @@ using TypeSpec.Http;
 
 namespace Graph.Community;
 
-model Site {
+model SPSite {
   Id: string;
   HubSiteId: string;
   IsHubSite: boolean;
@@ -23,5 +23,5 @@ model Site {
 
 model SPSiteResponse {
   ...OkResponse;
-  ...Body<Site>;
+  ...Body<SPSite>;
 }

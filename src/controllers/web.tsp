@@ -6,11 +6,11 @@ import "../models/web.tsp";
 
 using TypeSpec.Http;
 
-namespace Graph.Community;
-
 @tag("Web")
+namespace Graph.Community.Web;
+
 @route("/{serverRelativeSiteUrl}/_api/web")
-op GetWeb(
+op Get(
   ...CommonParameters,
   ...ODataSelectParameter,
   ...ODataExpandParameter,

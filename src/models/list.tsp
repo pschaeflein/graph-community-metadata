@@ -9,7 +9,7 @@ namespace Graph.Community;
  * Basic information about a list.
  * (To get complete information, use the Microsoft Graph endpoint.)
  */
-model List {
+model SPList {
   /**
    * The GUID that identifies the list in the database.
    */
@@ -53,11 +53,11 @@ model Form {
 
 model SPListResponse {
   ...OkResponse;
-  ...Body<List>;
+  ...Body<SPList>;
 }
 
 model SPListCollectionResponse {
   ...OkResponse;
-  ...Body<CollectionResponse<List>>;
+  ...Body<CollectionResponse<SPList>>;
 }
 

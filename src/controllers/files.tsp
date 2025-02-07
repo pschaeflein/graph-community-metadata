@@ -5,7 +5,8 @@ import "@typespec/openapi3";
 import "../models/files.tsp";
 
 using TypeSpec.Http;
-namespace Graph.Community;
+
+namespace Graph.Community.Web;
 
 @tag("Web")
 @route("/{serverRelativeSiteUrl}/_api/web/GetFileById('{id}')")
@@ -19,7 +20,7 @@ op GetFileById(
   ...CommonParameters,
   ...ODataSelectParameter,
   ...ODataExpandParameter,
-): File;
+): SPFile;
 
 @tag("Web")
 @route("/{serverRelativeSiteUrl}/_api/web/GetFileByServerRelativePath(DecodedUrl=@path)")
@@ -32,4 +33,4 @@ op GetFileByServerRelativePath(
   ...ODataSelectParameter,
   ...ODataExpandParameter,
   ...CommonParameters,
-): File;
+): SPFile;

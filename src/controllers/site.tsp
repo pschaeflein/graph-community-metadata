@@ -6,12 +6,15 @@ import "../models/site.tsp";
 
 using TypeSpec.Http;
 
-namespace Graph.Community;
-
 @tag("Site")
+namespace Graph.Community.Site;
+
 @route("/{serverRelativeSiteUrl}/_api/site")
-op GetSite(
+/**
+ * Returns basic information about the site. (To get complete information, use the Microsoft Graph endpoint.)
+ */
+op Get(
   ...CommonParameters,
   ...ODataSelectParameter,
   ...ODataExpandParameter,
-): Site;
+): SPSite;

@@ -7,10 +7,10 @@ import "../models/hubSites.tsp";
 
 using TypeSpec.Http;
 
-namespace Graph.Community;
-
 @tag("Hub sites")
+namespace Graph.Community.HubSites;
+
 @route("/{serverRelativeSiteUrl}/_api/HubSites")
 @doc("Gets information about all hub sites that the current user can access.")
 @get
-op GetHubSites(...CommonParameters): HubSiteCollection;
+op List(...CommonParameters): HubSiteCollectionResponse;

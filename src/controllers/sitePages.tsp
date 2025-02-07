@@ -6,18 +6,18 @@ import "../models/sitePages.tsp";
 
 using TypeSpec.Http;
 
-namespace Graph.Community;
-
 @tag("Site Pages")
+namespace Graph.Community.SitePages;
+
 @route("/{serverRelativeSiteUrl}/_api/SitePages")
-op GetSitePages(
+op List(
   ...ODataSelectParameter,
   ...CommonParameters,
 ): SPSitePagesCollectionResponse;
 
 @tag("Site Pages")
 @route("/{serverRelativeSiteUrl}/_api/SitePages/{id}")
-op GetSitePage(
+op Get(
   @path id: int32,
   ...ODataSelectParameter,
   ...ODataExpandParameter,

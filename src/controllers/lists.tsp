@@ -5,21 +5,25 @@ import "@typespec/openapi3";
 import "../models/list.tsp";
 
 using TypeSpec.Http;
-namespace Graph.Community;
 
 @tag("Lists")
+namespace Graph.Community.Lists;
+
 @route("/{serverRelativeSiteUrl}/_api/web/lists")
 /**
  * Returns basic information about all lists in the site. (To get complete information, use the Microsoft Graph endpoint.)
  */
-op GetLists(
+op List(
   ...CommonParameters,
   ...ODataSelectParameter,
 ): SPListCollectionResponse;
 
 @tag("Lists")
 @route("/{serverRelativeSiteUrl}/_api/web/lists/{id}")
-op GetList(
+/**
+ * Returns specific information about the list. (To get complete information, use the Microsoft Graph endpoint.)
+ */
+op Get(
   /**
    * The Id of the list.
    */

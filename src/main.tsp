@@ -9,6 +9,7 @@ import "./controllers/lists.tsp";
 import "./controllers/site.tsp";
 import "./controllers/siteDesigns.tsp";
 import "./controllers/sitePages.tsp";
+import "./controllers/siteScripts.tsp";
 import "./controllers/web.tsp";
 
 
@@ -17,10 +18,10 @@ using TypeSpec.OpenAPI;
 
 @service({
   title: "Graph.Community SDK for Microsoft SharePoint REST API",
-  version: "5.5.0",
+  version: "5.6.0",
 })
 @tagMetadata(
-  "Site Designs",
+  "Site Design/Site Script",
   #{
     description: "Site design and site script REST API.",
     externalDocs: #{

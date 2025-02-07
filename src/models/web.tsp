@@ -8,7 +8,7 @@ using TypeSpec.Http;
 
 namespace Graph.Community;
 
-model Web {
+model SPWeb {
   /**
    * The site identifier for the site.
    */
@@ -55,7 +55,7 @@ model ChangeToken {
 
 model SPWebResponse {
   ...OkResponse;
-  ...Body<Web>;
+  ...Body<SPWeb>;
 }
 
 model EnsureUserRequest {

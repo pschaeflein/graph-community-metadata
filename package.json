@@ -1,9 +1,10 @@
 {
   "name": "graph.community.metadata",
-  "version": "5.5.0",
+  "version": "5.6.0",
   "type": "module",
   "scripts": {
     "compile": "tsp compile src/main.tsp",
+    "watch": "tsp compile src/main.tsp --watch",
     "buildDocs": "tsp compile src/main.tsp && .\fixOpenApi.ps1"
   },
   "peerDependencies": {

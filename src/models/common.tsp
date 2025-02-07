@@ -5,8 +5,8 @@ using TypeSpec.OpenAPI;
 
 namespace Graph.Community;
 
-model CollectionResponse<Item> {
-  value: Item[];
+model CollectionResponse<TItem> {
+  value: TItem[];
 }
 
 model CommonParameters {

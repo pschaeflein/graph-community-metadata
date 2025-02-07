@@ -50,7 +50,7 @@ model HubSite {
   Targets: string;
 }
 
-model HubSiteCollection {
+model HubSiteCollectionResponse {
   ...OkResponse;
   ...Body<CollectionResponse<HubSite>>;
 }

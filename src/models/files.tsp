@@ -10,7 +10,7 @@ namespace Graph.Community;
  * Basic information about a file.
  * (To get complete information, use the Microsoft Graph endpoint.)
  */
-model File {
+model SPFile {
   CheckedOutByUser: User;
   CheckInComment: string;
 
