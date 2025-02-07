@@ -30,32 +30,6 @@
         "clear": true
       },
       "problemMatcher": []
-    },
-    {
-      "type": "typespec",
-      "path": "d:/Repos/pschaeflein/graph-community-metadata/src/main.tsp",
-      "args": "--watch",
-      "problemMatcher": {
-        "owner": "tsp",
-        "fileLocation": "absolute",
-        "source": "typespec",
-        "pattern": {
-          "regexp": "^..\\/(.*.tsp):(\\d+):(\\d+) - (warning|error) (.*)$",
-          "file": 1,
-          "line": 2,
-          "column": 3,
-          "severity": 4,
-          "message": 5
-        },
-        "background": {
-          "activeOnStart": true
-        }
-      },
-      "runOptions": {
-        "runOn": "folderOpen"
-      },
-      "isBackground": true,
-      "label": "tsp: watch - main.tsp"
     }
   ]
 }
