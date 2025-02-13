@@ -18,7 +18,7 @@ using TypeSpec.OpenAPI;
 
 @service({
   title: "Graph.Community SDK for Microsoft SharePoint REST API",
-  version: "5.6.0",
+  version: "5.7.0",
 })
 @tagMetadata(
   "Site Design/Site Script",
