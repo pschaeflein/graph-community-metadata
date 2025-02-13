@@ -12,10 +12,10 @@ $xLogo = @{
 if (Get-Member -InputObject $info -Name "x-logo" -MemberType Properties) {}
 else { Add-Member -InputObject $info -MemberType NoteProperty -Name "x-logo" -Value $xLogo }
 # update the discriminator mapping
-$mapping = $json.components.schemas.Principal.discriminator.mapping
+$mapping = $json.components.schemas.SPPrincipal.discriminator.mapping
 if (Get-Member -InputObject $mapping -Name "#SP.Group" -MemberType Properties) {}
-else { Add-Member -InputObject $mapping -MemberType NoteProperty -Name "#SP.Group" -Value "#/components/schemas/Group" }
+else { Add-Member -InputObject $mapping -MemberType NoteProperty -Name "#SP.Group" -Value "#/components/schemas/SPGroup" }
 if (Get-Member -InputObject $mapping -Name "#SP.User" -MemberType Properties) {}
-else { Add-Member -InputObject $mapping -MemberType NoteProperty -Name "#SP.User" -Value "#/components/schemas/User" }
+else { Add-Member -InputObject $mapping -MemberType NoteProperty -Name "#SP.User" -Value "#/components/schemas/SPUser" }
 #write docs file
 $json | ConvertTo-Json -Depth 100 | Set-Content -Path $docsApiFile

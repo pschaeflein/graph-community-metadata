@@ -5,7 +5,7 @@ using TypeSpec.Http;
 
 namespace Graph.Community;
 
-model HubSite {
+model SPHubSite {
   /**
    * Identifies the hub site.
   */
@@ -50,7 +50,7 @@ model HubSite {
   Targets: string;
 }
 
-model HubSiteCollectionResponse {
+model SPHubSiteCollectionResponse {
   ...OkResponse;
-  ...Body<CollectionResponse<HubSite>>;
+  ...Body<CollectionResponse<SPHubSite>>;
 }

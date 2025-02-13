@@ -11,7 +11,7 @@ namespace Graph.Community;
  * (To get complete information, use the Microsoft Graph endpoint.)
  */
 model SPFile {
-  CheckedOutByUser: User;
+  CheckedOutByUser: SPUser;
   CheckInComment: string;
 
   /**
@@ -31,7 +31,7 @@ model SPFile {
    */
   Level: int32;
 
-  LockedByUser: User;
+  LockedByUser: SPUser;
   MajorVersion: int32;
   MinorVersion: int32;
   Name: string;

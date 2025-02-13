@@ -34,17 +34,17 @@ model SPWeb {
    */
   FooterLayout: int32;
 
-  AssociatedMemberGroup?: Group;
+  AssociatedMemberGroup?: SPGroup;
 
-  AssociatedOwnerGroup?: Group;
+  AssociatedOwnerGroup?: SPGroup;
 
-  AssociatedVisitorGroup?: Group;
+  AssociatedVisitorGroup?: SPGroup;
 
   WelcomePage: string;
 
   RegionalSettings?: RegionalSettings;
 
-  SiteUsers: User[];
+  SiteUsers: SPUser[];
 
   UserCustomActions: UserCustomAction[];
 }

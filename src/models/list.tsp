@@ -26,10 +26,10 @@ model SPList {
    */
   BaseTemplate?: int32;
 
-  Forms?: Form[];
+  Forms?: SPForm[];
 }
 
-model Form {
+model SPForm {
   Id: string;
 
   /**

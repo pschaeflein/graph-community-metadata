@@ -76,6 +76,10 @@ $DeleteSiteDesignRequestBuilder = "$apiclientFolder/Item/_api/SiteScriptUtility/
 $ListsItemRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/Item/ListsItemRequestBuilder.cs"
 (Get-Content $ListsItemRequestBuilder) -replace "/_api/web/lists/{id}", "/_api/web/lists/getById('{id}')" | Set-Content $ListsItemRequestBuilder
 
+# - Remove the 'With___' bits from /list/GetByTitle...
+$ListsRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/ListsRequestBuilder.cs"
+(Get-Content $ListsRequestBuilder) -replace "public global::Graph.Community.Item._api.Web.Lists.GetByTitleWithTitle.GetByTitleWithTitleRequestBuilder GetByTitleWithTitle", "public global::Graph.Community.Item._api.Web.Lists.GetByTitleWithTitle.GetByTitleWithTitleRequestBuilder GetByTitle" | Set-Content $ListsRequestBuilder
+
 # - Add the 'pages' segment to SitePages
 $SitePagesRequestBuilder = "$apiclientFolder/Item/_api/SitePages/SitePagesRequestBuilder.cs"
 (Get-Content $SitePagesRequestBuilder) -replace "/_api/SitePages", "/_api/SitePages/Pages" | Set-Content $SitePagesRequestBuilder

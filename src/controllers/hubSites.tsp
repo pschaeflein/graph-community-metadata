@@ -13,4 +13,4 @@ namespace Graph.Community.HubSites;
 @route("/{serverRelativeSiteUrl}/_api/HubSites")
 @doc("Gets information about all hub sites that the current user can access.")
 @get
-op List(...CommonParameters): HubSiteCollectionResponse;
+op List(...CommonParameters): SPHubSiteCollectionResponse;

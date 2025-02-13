@@ -3,7 +3,7 @@ using TypeSpec.OpenAPI;
 namespace Graph.Community;
 
 @discriminator("@odata.type")
-model Principal {
+model SPPrincipal {
   /**
    * The member identifier for the user or group.
    */
@@ -36,7 +36,7 @@ model Principal {
   Title?: string;
 }
 
-model Group extends Principal {
+model SPGroup extends SPPrincipal {
   "@odata.type": "#SP.Group";
 
   /**
@@ -67,7 +67,7 @@ model Group extends Principal {
   /**
    * The owner for the group, which can be a user or another group.
    */
-  Owner?: Principal;
+  Owner?: SPPrincipal;
 
   /**
    * The name for the owner of this group
@@ -79,11 +79,11 @@ model Group extends Principal {
    */
   RequestToJoinLeaveEmailSetting: string;
 
-  Users: User[];
+  Users: SPUser[];
 }
 
 
-model User extends Principal{
+model SPUser extends SPPrincipal{
   "@odata.type": "#SP.User";
 
   @doc("The e-mail address of the user.")

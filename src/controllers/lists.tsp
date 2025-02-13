@@ -18,7 +18,6 @@ op List(
   ...ODataSelectParameter,
 ): SPListCollectionResponse;
 
-@tag("Lists")
 @route("/{serverRelativeSiteUrl}/_api/web/lists/{id}")
 /**
  * Returns specific information about the list. (To get complete information, use the Microsoft Graph endpoint.)
@@ -34,3 +33,19 @@ op Get(
   ...ODataExpandParameter,
   ...CommonParameters,
 ): SPListResponse;
+
+@route("/{serverRelativeSiteUrl}/_api/web/lists/GetByTitle('{title}')")
+/**
+ * Returns specific information about the list. (To get complete information, use the Microsoft Graph endpoint.)
+ */
+op GetByTitle(
+  /**
+   * The Title of the list.
+   */
+  @path
+  title: string,
+  ...ODataSelectParameter,
+  ...ODataExpandParameter,
+  ...CommonParameters,
+): SPListResponse;
+

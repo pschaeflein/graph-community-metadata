@@ -22,4 +22,4 @@ op Get(
   ...ODataSelectParameter,
   ...ODataExpandParameter,
   ...CommonParameters,
-): SitePage;
+): SPSitePage;

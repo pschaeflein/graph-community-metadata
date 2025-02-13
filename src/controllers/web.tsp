@@ -26,4 +26,4 @@ op EnsureUser(
    */
   @body req: EnsureUserRequest,
   ...CommonParameters,
-): User;
+): SPUser;

@@ -5,7 +5,7 @@ using TypeSpec.Http;
 
 namespace Graph.Community;
 
-model SitePage {
+model SPSitePage {
   Id: int32;
   Title?: string;
   Description?: string;
@@ -59,5 +59,5 @@ model PublishingUserInfo {
 
 model SPSitePagesCollectionResponse {
   ...OkResponse;
-  ...Body<CollectionResponse<SitePage>>;
+  ...Body<CollectionResponse<SPSitePage>>;
 }
