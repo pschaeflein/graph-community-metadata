@@ -20,7 +20,7 @@ model SPWeb {
   Title: string;
 
   /**
-   * Represents the unique sequential location of a change within the change log.
+   * The change token that is used when the next change is logged to the website.
    */
   CurrentChangeToken?:ChangeToken;
 
@@ -39,6 +39,11 @@ model SPWeb {
   AssociatedOwnerGroup?: SPGroup;
 
   AssociatedVisitorGroup?: SPGroup;
+
+  /**
+   * The name of the site definition or site template that was used to create the site.
+   */
+  WebTemplate: string;
 
   WelcomePage: string;
 
