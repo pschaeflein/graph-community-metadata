@@ -16,10 +16,7 @@ import "./controllers/web.tsp";
 using TypeSpec.Http;
 using TypeSpec.OpenAPI;
 
-@OpenAPI.info({version: "5.7.1"})
-@service({
-  title: "Graph.Community SDK for Microsoft SharePoint REST API",
-})
+@OpenAPI.info(#{version: "5.7.1"})
 @tagMetadata(
   "Site Design/Site Script",
   #{
@@ -74,4 +71,7 @@ using TypeSpec.OpenAPI;
     },
   }
 )
+@service(#{
+  title: "Graph.Community SDK for Microsoft SharePoint REST API",
+})
 namespace Graph.Community {}
