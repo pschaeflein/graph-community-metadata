@@ -2,6 +2,7 @@ import "@typespec/http";
 import "./common.tsp";
 
 using TypeSpec.Http;
+using TypeSpec.OpenAPI;
 
 namespace Graph.Community;
 
@@ -26,7 +27,13 @@ model SPList {
    */
   BaseTemplate?: int32;
 
+  /** Requires $expand=Forms. */
+  @extension("x-odata-expand", "Forms")
   Forms?: SPForm[];
+
+  /** Requires $expand=DefaultView. */
+  @extension("x-odata-expand", "DefaultView")
+  DefaultView?: SPView;
 }
 
 model SPForm {
@@ -48,6 +55,15 @@ model SPForm {
    *  PAGE_MAXITEMS = 11
    */
   FormType: int32;
+
+  ServerRelativeUrl: string;
+}
+
+model SPView {
+  @format("uuid")
+  Id: string;
+
+  Title: string;
   ServerRelativeUrl: string;
 }
 
@@ -60,4 +76,3 @@ model SPListCollectionResponse {
   ...OkResponse;
   ...Body<CollectionResponse<SPList>>;
 }
-
