@@ -8,19 +8,19 @@
     "buildDocs": "tsp compile src/main.tsp && ./fixOpenApi.ps1"
   },
   "peerDependencies": {
-    "@typespec/compiler": "latest",
-    "@typespec/http": "latest",
-    "@typespec/openapi3": "latest",
-    "@typespec/rest": "latest"
+    "@typespec/compiler": "^1.11.0",
+    "@typespec/http": "^1.11.0",
+    "@typespec/openapi3": "^1.11.0",
+    "@typespec/rest": "^0.81.0"
   },
   "devDependencies": {
-    "@typespec/compiler": "latest",
-    "@typespec/http": "latest",
-    "@typespec/openapi3": "latest",
-    "@typespec/rest": "latest"
+    "@typespec/compiler": "^1.11.0",
+    "@typespec/http": "^1.11.0",
+    "@typespec/openapi3": "^1.11.0",
+    "@typespec/rest": "^0.81.0"
   },
   "private": true,
   "dependencies": {
-    "@typespec/openapi": "^1.0.0-rc.0"
+    "@typespec/openapi": "^1.11.0"
   }
 }

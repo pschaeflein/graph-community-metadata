@@ -6,6 +6,8 @@ import "@typespec/openapi3";
 import "./controllers/files.tsp";
 import "./controllers/hubSites.tsp";
 import "./controllers/lists.tsp";
+import "./controllers/listItems.tsp";
+import "./controllers/search.tsp";
 import "./controllers/site.tsp";
 import "./controllers/siteDesigns.tsp";
 import "./controllers/sitePages.tsp";
@@ -36,6 +38,15 @@ using TypeSpec.OpenAPI;
   }
 )
 @tagMetadata(
+  "List Items",
+  #{
+    description: "Methods for reading List Items and their properties.",
+    externalDocs: #{
+      url: "https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/working-with-lists-and-list-items-with-rest",
+    },
+  }
+)
+@tagMetadata(
   "Hub sites",
   #{
     description: "Hub sites REST API",
@@ -58,7 +69,7 @@ using TypeSpec.OpenAPI;
   #{
     description: "Methods for working with the Web resource.",
     externalDocs: #{
-      url: "https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/determine-sharepoint-rest-service-endpoint-uris?tabs=http",
+      url: "https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-rest-reference/dn499819(v=office.15)",
     },
   }
 )
@@ -68,6 +79,15 @@ using TypeSpec.OpenAPI;
     description: "Methods for working with the Site resource.",
     externalDocs: #{
       url: "https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/determine-sharepoint-rest-service-endpoint-uris?tabs=http",
+    },
+  }
+)
+@tagMetadata(
+  "Search",
+  #{
+    description: "Methods for working with the Search REST API.",
+    externalDocs: #{
+      url: "https://learn.microsoft.com/en-us/sharepoint/dev/general-development/using-the-sharepoint-search-rest-service",
     },
   }
 )

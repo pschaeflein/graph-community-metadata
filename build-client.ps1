@@ -76,6 +76,11 @@ $DeleteSiteDesignRequestBuilder = "$apiclientFolder/Item/_api/SiteScriptUtility/
 $ListsItemRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/Item/ListsItemRequestBuilder.cs"
 (Get-Content $ListsItemRequestBuilder) -replace "/_api/web/lists/{id}", "/_api/web/lists/getById('{id}')" | Set-Content $ListsItemRequestBuilder
 
+$ListsItemItemRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/Item/Items/ItemsRequestBuilder.cs"
+(Get-Content $ListsItemItemRequestBuilder) -replace "/_api/web/lists/{id}", "/_api/web/lists/getById('{id}')" | Set-Content $ListsItemItemRequestBuilder
+$ListsItemItemWithItemIdRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/Item/Items/Item/WithItemItemRequestBuilder.cs"
+(Get-Content $ListsItemItemWithItemIdRequestBuilder) -replace "/_api/web/lists/{id}/items/{itemId}", "/_api/web/lists/getById('{id}')/items({itemId})" | Set-Content $ListsItemItemWithItemIdRequestBuilder
+
 # - Remove the 'With___' bits from /list/GetByTitle...
 $ListsRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/ListsRequestBuilder.cs"
 (Get-Content $ListsRequestBuilder) -replace "public global::Graph.Community.Item._api.Web.Lists.GetByTitleWithTitle.GetByTitleWithTitleRequestBuilder GetByTitleWithTitle", "public global::Graph.Community.Item._api.Web.Lists.GetByTitleWithTitle.GetByTitleWithTitleRequestBuilder GetByTitle" | Set-Content $ListsRequestBuilder

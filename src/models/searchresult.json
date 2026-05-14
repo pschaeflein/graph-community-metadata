@@ -1,0 +1,1307 @@
+{
+    "d": {
+        "query": {
+            "__metadata": {
+                "type": "Microsoft.Office.Server.Search.REST.SearchResult"
+            },
+            "ElapsedTime": 521,
+            "PrimaryQueryResult": {
+                "__metadata": {
+                    "type": "Microsoft.Office.Server.Search.REST.QueryResult"
+                },
+                "CustomResults": {
+                    "__metadata": {
+                        "type": "Collection(Microsoft.Office.Server.Search.REST.CustomResult)"
+                    },
+                    "results": [
+                        
+                    ]
+                },
+                "QueryId": "6c895cca-ed2a-4b09-8e70-358c15ff1bdb",
+                "QueryRuleId": "00000000-0000-0000-0000-000000000000",
+                "RefinementResults": {
+                    "__metadata": {
+                        "type": "Microsoft.Office.Server.Search.REST.RefinementResults"
+                    },
+                    "GroupTemplateId": null,
+                    "ItemTemplateId": null,
+                    "Properties": {
+                        "__metadata": {
+                            "type": "Collection(SP.KeyValue)"
+                        },
+                        "results": [
+                            {
+                                "Key": "RenderTemplateId",
+                                "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js",
+                                "ValueType": "Edm.String"
+                            },
+                            {
+                                "Key": "ExecutionTimeMs",
+                                "Value": "0",
+                                "ValueType": "Edm.Int32"
+                            },
+                            {
+                                "Key": "StartRecord",
+                                "Value": "0",
+                                "ValueType": "Edm.Int32"
+                            },
+                            {
+                                "Key": "piPageImpressionBlockType",
+                                "Value": "2",
+                                "ValueType": "Edm.Int32"
+                            },
+                            {
+                                "Key": "IsLastBlockInSubstrate",
+                                "Value": "true",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsFirstBlockInSubstrate",
+                                "Value": "false",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsFirstPinnedResultBlock",
+                                "Value": "false",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsLastPinnedResultBlock",
+                                "Value": "false",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsFirstRankedResultBlock",
+                                "Value": "true",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsLastRankedResultBlock",
+                                "Value": "true",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "MixedTableOrder",
+                                "Value": "1",
+                                "ValueType": "Edm.Int32"
+                            }
+                        ]
+                    },
+                    "Refiners": {
+                        "__metadata": {
+                            "type": "Collection(Microsoft.Office.Server.Search.REST.Refiner)"
+                        },
+                        "results": [
+                            {
+                                "Entries": {
+                                    "__metadata": {
+                                        "type": "Collection(Microsoft.Office.Server.Search.REST.RefinerEntry)"
+                                    },
+                                    "results": [
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ContentType",
+                                            "RefinementToken": "\"\u01c2\u01c2436f6e74656e7454797065\"",
+                                            "RefinementValue": "ContentType"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Size",
+                                            "RefinementToken": "\"\u01c2\u01c253697a65\"",
+                                            "RefinementValue": "Size"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ContentExcludeFromSummaries",
+                                            "RefinementToken": "\"\u01c2\u01c2436f6e74656e744578636c75646546726f6d53756d6d6172696573\"",
+                                            "RefinementValue": "ContentExcludeFromSummaries"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ContentTypeId",
+                                            "RefinementToken": "\"\u01c2\u01c2436f6e74656e74547970654964\"",
+                                            "RefinementValue": "ContentTypeId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Filename",
+                                            "RefinementToken": "\"\u01c2\u01c246696c656e616d65\"",
+                                            "RefinementValue": "Filename"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SecondaryFileExtension",
+                                            "RefinementToken": "\"\u01c2\u01c25365636f6e6461727946696c65457874656e73696f6e\"",
+                                            "RefinementValue": "SecondaryFileExtension"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "FileType",
+                                            "RefinementToken": "\"\u01c2\u01c246696c6554797065\"",
+                                            "RefinementValue": "FileType"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "FileExtension",
+                                            "RefinementToken": "\"\u01c2\u01c246696c65457874656e73696f6e\"",
+                                            "RefinementValue": "FileExtension"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Title",
+                                            "RefinementToken": "\"\u01c2\u01c25469746c65\"",
+                                            "RefinementValue": "Title"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "URLAnchor",
+                                            "RefinementToken": "\"\u01c2\u01c255524c416e63686f72\"",
+                                            "RefinementValue": "URLAnchor"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "EndAnchor",
+                                            "RefinementToken": "\"\u01c2\u01c2456e64416e63686f72\"",
+                                            "RefinementValue": "EndAnchor"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "PictureThumbnailURL",
+                                            "RefinementToken": "\"\u01c2\u01c2506963747572655468756d626e61696c55524c\"",
+                                            "RefinementValue": "PictureThumbnailURL"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "PromotedState",
+                                            "RefinementToken": "\"\u01c2\u01c250726f6d6f7465645374617465\"",
+                                            "RefinementValue": "PromotedState"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "People",
+                                            "RefinementToken": "\"\u01c2\u01c250656f706c65\"",
+                                            "RefinementValue": "People"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "CreatedBy",
+                                            "RefinementToken": "\"\u01c2\u01c2437265617465644279\"",
+                                            "RefinementValue": "CreatedBy"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "AuthorOWSUSER",
+                                            "RefinementToken": "\"\u01c2\u01c2417574686f724f575355534552\"",
+                                            "RefinementValue": "AuthorOWSUSER"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SPContentType",
+                                            "RefinementToken": "\"\u01c2\u01c25350436f6e74656e7454797065\"",
+                                            "RefinementValue": "SPContentType"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Created",
+                                            "RefinementToken": "\"\u01c2\u01c243726561746564\"",
+                                            "RefinementValue": "Created"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Author",
+                                            "RefinementToken": "\"\u01c2\u01c2417574686f72\"",
+                                            "RefinementValue": "Author"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "MetadataAuthor",
+                                            "RefinementToken": "\"\u01c2\u01c24d65746164617461417574686f72\"",
+                                            "RefinementValue": "MetadataAuthor"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "LastModifiedTime",
+                                            "RefinementToken": "\"\u01c2\u01c24c6173744d6f64696669656454696d65\"",
+                                            "RefinementValue": "LastModifiedTime"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ows_taxId_SPLocationSite",
+                                            "RefinementToken": "\"\u01c2\u01c26f77735f74617849645f53504c6f636174696f6e53697465\"",
+                                            "RefinementValue": "ows_taxId_SPLocationSite"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ows_taxId_SPLocationList",
+                                            "RefinementToken": "\"\u01c2\u01c26f77735f74617849645f53504c6f636174696f6e4c697374\"",
+                                            "RefinementValue": "ows_taxId_SPLocationList"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ModifiedById",
+                                            "RefinementToken": "\"\u01c2\u01c24d6f64696669656442794964\"",
+                                            "RefinementValue": "ModifiedById"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ModifiedBy",
+                                            "RefinementToken": "\"\u01c2\u01c24d6f6469666965644279\"",
+                                            "RefinementValue": "ModifiedBy"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "NormUniqueID",
+                                            "RefinementToken": "\"\u01c2\u01c24e6f726d556e697175654944\"",
+                                            "RefinementValue": "NormUniqueID"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ParentId",
+                                            "RefinementToken": "\"\u01c2\u01c2506172656e744964\"",
+                                            "RefinementValue": "ParentId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "DefaultEncodingURL",
+                                            "RefinementToken": "\"\u01c2\u01c244656661756c74456e636f64696e6755524c\"",
+                                            "RefinementValue": "DefaultEncodingURL"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ReplyCount",
+                                            "RefinementToken": "\"\u01c2\u01c25265706c79436f756e74\"",
+                                            "RefinementValue": "ReplyCount"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "FolderChildCount",
+                                            "RefinementToken": "\"\u01c2\u01c2466f6c6465724368696c64436f756e74\"",
+                                            "RefinementValue": "FolderChildCount"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "TagHold",
+                                            "RefinementToken": "\"\u01c2\u01c2546167486f6c64\"",
+                                            "RefinementValue": "TagHold"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "TagReviewed",
+                                            "RefinementToken": "\"\u01c2\u01c25461675265766965776564\"",
+                                            "RefinementValue": "TagReviewed"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "IsFileSensitivityLabelExtracted",
+                                            "RefinementToken": "\"\u01c2\u01c2497346696c6553656e73697469766974794c6162656c457874726163746564\"",
+                                            "RefinementValue": "IsFileSensitivityLabelExtracted"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "CreatedOWSDATE",
+                                            "RefinementToken": "\"\u01c2\u01c2437265617465644f575344415445\"",
+                                            "RefinementValue": "CreatedOWSDATE"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ModifiedOWSDATE",
+                                            "RefinementToken": "\"\u01c2\u01c24d6f6469666965644f575344415445\"",
+                                            "RefinementValue": "ModifiedOWSDATE"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "UIVersionStringOWSTEXT",
+                                            "RefinementToken": "\"\u01c2\u01c2554956657273696f6e537472696e674f575354455854\"",
+                                            "RefinementValue": "UIVersionStringOWSTEXT"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SPFxExtensionJson",
+                                            "RefinementToken": "\"\u01c2\u01c253504678457874656e73696f6e4a736f6e\"",
+                                            "RefinementValue": "SPFxExtensionJson"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "owstaxidmetadataalltagsinfo",
+                                            "RefinementToken": "\"\u01c2\u01c26f777374617869646d65746164617461616c6c74616773696e666f\"",
+                                            "RefinementValue": "owstaxidmetadataalltagsinfo"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Tags",
+                                            "RefinementToken": "\"\u01c2\u01c254616773\"",
+                                            "RefinementValue": "Tags"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "owsmetadatafacetinfo",
+                                            "RefinementToken": "\"\u01c2\u01c26f77736d657461646174616661636574696e666f\"",
+                                            "RefinementValue": "owsmetadatafacetinfo"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ows_MetadataFacetInfo",
+                                            "RefinementToken": "\"\u01c2\u01c26f77735f4d657461646174614661636574496e666f\"",
+                                            "RefinementValue": "ows_MetadataFacetInfo"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ows_taxId_SPLocationInfo",
+                                            "RefinementToken": "\"\u01c2\u01c26f77735f74617849645f53504c6f636174696f6e496e666f\"",
+                                            "RefinementValue": "ows_taxId_SPLocationInfo"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SPWebUrl",
+                                            "RefinementToken": "\"\u01c2\u01c2535057656255726c\"",
+                                            "RefinementValue": "SPWebUrl"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "LastModifiedTimeForRetention",
+                                            "RefinementToken": "\"\u01c2\u01c24c6173744d6f64696669656454696d65466f72526574656e74696f6e\"",
+                                            "RefinementValue": "LastModifiedTimeForRetention"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "EditorOWSUSER",
+                                            "RefinementToken": "\"\u01c2\u01c2456469746f724f575355534552\"",
+                                            "RefinementValue": "EditorOWSUSER"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SPSiteURL",
+                                            "RefinementToken": "\"\u01c2\u01c253505369746555524c\"",
+                                            "RefinementValue": "SPSiteURL"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Color",
+                                            "RefinementToken": "\"\u01c2\u01c2436f6c6f72\"",
+                                            "RefinementValue": "Color"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "NormWebID",
+                                            "RefinementToken": "\"\u01c2\u01c24e6f726d5765624944\"",
+                                            "RefinementValue": "NormWebID"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "NormListID",
+                                            "RefinementToken": "\"\u01c2\u01c24e6f726d4c6973744944\"",
+                                            "RefinementValue": "NormListID"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ListItemID",
+                                            "RefinementToken": "\"\u01c2\u01c24c6973744974656d4944\"",
+                                            "RefinementValue": "ListItemID"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "CreatedById",
+                                            "RefinementToken": "\"\u01c2\u01c24372656174656442794964\"",
+                                            "RefinementValue": "CreatedById"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SiteOwnerObjectId",
+                                            "RefinementToken": "\"\u01c2\u01c2536974654f776e65724f626a6563744964\"",
+                                            "RefinementValue": "SiteOwnerObjectId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Path",
+                                            "RefinementToken": "\"\u01c2\u01c250617468\"",
+                                            "RefinementValue": "Path"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "OriginalPath",
+                                            "RefinementToken": "\"\u01c2\u01c24f726967696e616c50617468\"",
+                                            "RefinementValue": "OriginalPath"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ItemPath",
+                                            "RefinementToken": "\"\u01c2\u01c24974656d50617468\"",
+                                            "RefinementValue": "ItemPath"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SiteTitle",
+                                            "RefinementToken": "\"\u01c2\u01c2536974655469746c65\"",
+                                            "RefinementValue": "SiteTitle"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "DocumentLink",
+                                            "RefinementToken": "\"\u01c2\u01c2446f63756d656e744c696e6b\"",
+                                            "RefinementValue": "DocumentLink"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ContentDatabaseId",
+                                            "RefinementToken": "\"\u01c2\u01c2436f6e74656e7444617461626173654964\"",
+                                            "RefinementValue": "ContentDatabaseId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "WebApplicationId",
+                                            "RefinementToken": "\"\u01c2\u01c25765624170706c69636174696f6e4964\"",
+                                            "RefinementValue": "WebApplicationId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SecurityId",
+                                            "RefinementToken": "\"\u01c2\u01c253656375726974794964\"",
+                                            "RefinementValue": "SecurityId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ParentLink",
+                                            "RefinementToken": "\"\u01c2\u01c2506172656e744c696e6b\"",
+                                            "RefinementValue": "ParentLink"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "FallbackLanguage",
+                                            "RefinementToken": "\"\u01c2\u01c246616c6c6261636b4c616e6775616765\"",
+                                            "RefinementValue": "FallbackLanguage"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SiteTemplate",
+                                            "RefinementToken": "\"\u01c2\u01c25369746554656d706c617465\"",
+                                            "RefinementValue": "SiteTemplate"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SiteTemplateId",
+                                            "RefinementToken": "\"\u01c2\u01c25369746554656d706c6174654964\"",
+                                            "RefinementValue": "SiteTemplateId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "RelatedGroupId",
+                                            "RefinementToken": "\"\u01c2\u01c252656c6174656447726f75704964\"",
+                                            "RefinementValue": "RelatedGroupId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "IsContainer",
+                                            "RefinementToken": "\"\u01c2\u01c24973436f6e7461696e6572\"",
+                                            "RefinementValue": "IsContainer"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "IsDocument",
+                                            "RefinementToken": "\"\u01c2\u01c24973446f63756d656e74\"",
+                                            "RefinementValue": "IsDocument"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ViewableByAnonymousUsers",
+                                            "RefinementToken": "\"\u01c2\u01c25669657761626c654279416e6f6e796d6f75735573657273\"",
+                                            "RefinementValue": "ViewableByAnonymousUsers"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "NormSiteID",
+                                            "RefinementToken": "\"\u01c2\u01c24e6f726d536974654944\"",
+                                            "RefinementValue": "NormSiteID"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "CommentsDisabled",
+                                            "RefinementToken": "\"\u01c2\u01c2436f6d6d656e747344697361626c6564\"",
+                                            "RefinementValue": "CommentsDisabled"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "DriveId",
+                                            "RefinementToken": "\"\u01c2\u01c244726976654964\"",
+                                            "RefinementValue": "DriveId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "contentclass",
+                                            "RefinementToken": "\"\u01c2\u01c2636f6e74656e74636c617373\"",
+                                            "RefinementValue": "contentclass"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Contents",
+                                            "RefinementToken": "\"\u01c2\u01c2436f6e74656e7473\"",
+                                            "RefinementValue": "Contents"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "BannerImageUrlOWSURLH",
+                                            "RefinementToken": "\"\u01c2\u01c242616e6e6572496d61676555726c4f575355524c48\"",
+                                            "RefinementValue": "BannerImageUrlOWSURLH"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "PromotedStateOWSNMBR",
+                                            "RefinementToken": "\"\u01c2\u01c250726f6d6f74656453746174654f57534e4d4252\"",
+                                            "RefinementValue": "PromotedStateOWSNMBR"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "PromotedStateOWSTNMBR",
+                                            "RefinementToken": "\"\u01c2\u01c250726f6d6f74656453746174654f5753544e4d4252\"",
+                                            "RefinementValue": "PromotedStateOWSTNMBR"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "LayoutWebpartsContentOWSHTML",
+                                            "RefinementToken": "\"\u01c2\u01c24c61796f75745765627061727473436f6e74656e744f575348544d4c\"",
+                                            "RefinementValue": "LayoutWebpartsContentOWSHTML"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "owstaxIdPFMMD",
+                                            "RefinementToken": "\"\u01c2\u01c26f7773746178496450464d4d44\"",
+                                            "RefinementValue": "owstaxIdPFMMD"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "AdditionalGroundingData",
+                                            "RefinementToken": "\"\u01c2\u01c24164646974696f6e616c47726f756e64696e6744617461\"",
+                                            "RefinementValue": "AdditionalGroundingData"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "CrawledProperties",
+                                            "RefinementToken": "\"\u01c2\u01c2437261776c656450726f70657274696573\"",
+                                            "RefinementValue": "CrawledProperties"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "SitePath",
+                                            "RefinementToken": "\"\u01c2\u01c25369746550617468\"",
+                                            "RefinementValue": "SitePath"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "UrlDepth",
+                                            "RefinementToken": "\"\u01c2\u01c255726c4465707468\"",
+                                            "RefinementValue": "UrlDepth"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ContentSource",
+                                            "RefinementToken": "\"\u01c2\u01c2436f6e74656e74536f75726365\"",
+                                            "RefinementValue": "ContentSource"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "HostingPartition",
+                                            "RefinementToken": "\"\u01c2\u01c2486f7374696e67506172746974696f6e\"",
+                                            "RefinementValue": "HostingPartition"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "Encoding",
+                                            "RefinementToken": "\"\u01c2\u01c2456e636f64696e67\"",
+                                            "RefinementValue": "Encoding"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "DisplayAuthor",
+                                            "RefinementToken": "\"\u01c2\u01c2446973706c6179417574686f72\"",
+                                            "RefinementValue": "DisplayAuthor"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "IndexDocId",
+                                            "RefinementToken": "\"\u01c2\u01c2496e646578446f634964\"",
+                                            "RefinementValue": "IndexDocId"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "FileTotalSize",
+                                            "RefinementToken": "\"\u01c2\u01c246696c65546f74616c53697a65\"",
+                                            "RefinementValue": "FileTotalSize"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "ViewableByExternalUsers",
+                                            "RefinementToken": "\"\u01c2\u01c25669657761626c65427945787465726e616c5573657273\"",
+                                            "RefinementValue": "ViewableByExternalUsers"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "GeoLocation",
+                                            "RefinementToken": "\"\u01c2\u01c247656f4c6f636174696f6e\"",
+                                            "RefinementValue": "GeoLocation"
+                                        },
+                                        {
+                                            "RefinementCount": "1",
+                                            "RefinementName": "PrivacyIndicator",
+                                            "RefinementToken": "\"\u01c2\u01c250726976616379496e64696361746f72\"",
+                                            "RefinementValue": "PrivacyIndicator"
+                                        }
+                                    ]
+                                },
+                                "Name": "ManagedProperties"
+                            }
+                        ]
+                    },
+                    "ResultTitle": null,
+                    "ResultTitleUrl": null
+                },
+                "RelevantResults": {
+                    "__metadata": {
+                        "type": "Microsoft.Office.Server.Search.REST.RelevantResults"
+                    },
+                    "GroupTemplateId": null,
+                    "ItemTemplateId": null,
+                    "Properties": {
+                        "__metadata": {
+                            "type": "Collection(SP.KeyValue)"
+                        },
+                        "results": [
+                            {
+                                "Key": "RenderTemplateId",
+                                "Value": "~sitecollection/_catalogs/masterpage/Display Templates/Search/Group_Default.js",
+                                "ValueType": "Edm.String"
+                            },
+                            {
+                                "Key": "QueryModification",
+                                "Value": "WorkId:5516875426839210968 -ContentClass=urn:content-class:SPSPeople",
+                                "ValueType": "Edm.String"
+                            },
+                            {
+                                "Key": "ExecutionTimeMs",
+                                "Value": "0",
+                                "ValueType": "Edm.Int32"
+                            },
+                            {
+                                "Key": "StartRecord",
+                                "Value": "0",
+                                "ValueType": "Edm.Int32"
+                            },
+                            {
+                                "Key": "piPageImpressionBlockType",
+                                "Value": "2",
+                                "ValueType": "Edm.Int32"
+                            },
+                            {
+                                "Key": "IsLastBlockInSubstrate",
+                                "Value": "true",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsFirstBlockInSubstrate",
+                                "Value": "false",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsFirstPinnedResultBlock",
+                                "Value": "false",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsLastPinnedResultBlock",
+                                "Value": "false",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsFirstRankedResultBlock",
+                                "Value": "true",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "IsLastRankedResultBlock",
+                                "Value": "true",
+                                "ValueType": "Edm.Boolean"
+                            },
+                            {
+                                "Key": "MixedTableOrder",
+                                "Value": "0",
+                                "ValueType": "Edm.Int32"
+                            }
+                        ]
+                    },
+                    "ResultTitle": null,
+                    "ResultTitleUrl": null,
+                    "RowCount": 1,
+                    "Table": {
+                        "__metadata": {
+                            "type": "SP.SimpleDataTable"
+                        },
+                        "Rows": {
+                            "results": [
+                                {
+                                    "__metadata": {
+                                        "type": "SP.SimpleDataRow"
+                                    },
+                                    "Cells": {
+                                        "results": [
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "WorkId",
+                                                "Value": "5516875426839210968",
+                                                "ValueType": "Edm.Int64"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "Rank",
+                                                "Value": "998.8705754",
+                                                "ValueType": "Edm.Double"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "Title",
+                                                "Value": "Test",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "Author",
+                                                "Value": "Paul Schaeflein",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "Size",
+                                                "Value": "3384",
+                                                "ValueType": "Edm.Int64"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "Path",
+                                                "Value": "https://codeaddin365.sharepoint.com/sites/PHSDev/SitePages/Test.aspx",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "Description",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "Write",
+                                                "Value": "2026-05-07T20:16:36.0000000Z",
+                                                "ValueType": "Edm.DateTime"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "CollapsingStatus",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "HitHighlightedSummary",
+                                                "Value": "",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "HitHighlightedProperties",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "contentclass",
+                                                "Value": "STS_ListItem_WebPageLibrary",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "PictureThumbnailURL",
+                                                "Value": "https://media.akamai.odsp.cdn.office.net/codeaddin365.sharepoint.com/_layouts/15/images/sitepagethumbnail.png",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ServerRedirectedURL",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ServerRedirectedEmbedURL",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ServerRedirectedPreviewURL",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "FileExtension",
+                                                "Value": "aspx",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ContentTypeId",
+                                                "Value": "0x0101009D1CB255DA76424F860D91F20E6C4118008D650249651C3645AAEB73E417466322",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ParentLink",
+                                                "Value": "https://codeaddin365.sharepoint.com/sites/PHSDev/SitePages/Forms/ByAuthor.aspx",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ViewsLifeTime",
+                                                "Value": "5",
+                                                "ValueType": "Edm.Int64"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ViewsRecent",
+                                                "Value": "5",
+                                                "ValueType": "Edm.Int64"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "SectionNames",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "SectionIndexes",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "SiteLogo",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "SiteDescription",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "deeplinks",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "importance",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "SiteName",
+                                                "Value": "https://codeaddin365.sharepoint.com/sites/PHSDev",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "IsDocument",
+                                                "Value": "true",
+                                                "ValueType": "Edm.Boolean"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "LastModifiedTime",
+                                                "Value": "2026-05-07T20:16:36.0000000Z",
+                                                "ValueType": "Edm.DateTime"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "FileType",
+                                                "Value": "aspx",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "IsContainer",
+                                                "Value": "false",
+                                                "ValueType": "Edm.Boolean"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "WebTemplate",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ResultTypeIdList",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ResultTypeId",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "SecondaryFileExtension",
+                                                "Value": "aspx",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "RenderTemplateId",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "DocId",
+                                                "Value": "5516875426839210968",
+                                                "ValueType": "Edm.Int64"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "docaclmeta",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "SPWebUrl",
+                                                "Value": "https://codeaddin365.sharepoint.com/sites/PHSDev",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "UniqueId",
+                                                "Value": "{f9d9b683-16c7-4008-ba54-d6185965b99d}",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ProgId",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "LinkingUrl",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "piSearchResultId",
+                                                "Value": "ARIA\u01c29a5611ed-110b-60e5-67a2-217e2dc9794e\u01c295b522c1-2ea2-44e2-ae21-b7f19bab57e4\u01c29a5611ed-110b-60e5-67a2-217e2dc9794e.1000.1\u01c2\u01c2G110_SfqeV2_SingleGeo_Forwarded",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "GeoLocationSource",
+                                                "Value": "GBR",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "SiteId",
+                                                "Value": "50acb94b-3726-4283-aa2e-b4775acf9db5",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "WebId",
+                                                "Value": "660e9e4f-9d9d-4d42-8269-cc1b72a003cb",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "IsExternalContent",
+                                                "Value": "false",
+                                                "ValueType": "Edm.Boolean"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "ListId",
+                                                "Value": "e2818c4c-244d-436c-832a-cc4ddade8f76",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "PartitionId",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "UrlZone",
+                                                "Value": "0",
+                                                "ValueType": "Edm.Int64"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "Culture",
+                                                "Value": null,
+                                                "ValueType": "Null"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "OriginalPath",
+                                                "Value": "https://codeaddin365.sharepoint.com/sites/PHSDev/SitePages/Test.aspx",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "IdentitySiteCollectionId",
+                                                "Value": "50acb94b-3726-4283-aa2e-b4775acf9db5",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "IdentityWebId",
+                                                "Value": "660e9e4f-9d9d-4d42-8269-cc1b72a003cb",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "IdentityListId",
+                                                "Value": "e2818c4c-244d-436c-832a-cc4ddade8f76",
+                                                "ValueType": "Edm.String"
+                                            },
+                                            {
+                                                "__metadata": {
+                                                    "type": "SP.KeyValue"
+                                                },
+                                                "Key": "IdentityListItemId",
+                                                "Value": "f9d9b683-16c7-4008-ba54-d6185965b99d",
+                                                "ValueType": "Edm.String"
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    "TotalRows": 1,
+                    "TotalRowsIncludingDuplicates": 1
+                },
+                "SpecialTermResults": null
+            },
+            "Properties": {
+                "__metadata": {
+                    "type": "Collection(SP.KeyValue)"
+                },
+                "results": [
+                    {
+                        "Key": "WordBreakerLanguage",
+                        "Value": "en",
+                        "ValueType": "Edm.String"
+                    },
+                    {
+                        "Key": "SourceId",
+                        "Value": "8413cd39-2156-4e00-b54d-11efd9abdb89",
+                        "ValueType": "Edm.String"
+                    },
+                    {
+                        "Key": "HasParseException",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                    },
+                    {
+                        "Key": "IsPartial",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                    },
+                    {
+                        "Key": "CorrelationId",
+                        "Value": "9fe1adcc-988a-4a39-bd75-df4ce6d2d281",
+                        "ValueType": "Edm.Guid"
+                    },
+                    {
+                        "Key": "WasGroupsRestricted",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                    },
+                    {
+                        "Key": "RowLimit",
+                        "Value": "100",
+                        "ValueType": "Edm.Int32"
+                    },
+                    {
+                        "Key": "IsMissingUnifiedGroups",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                    },
+                    {
+                        "Key": "MultiGeoSearchStatus",
+                        "Value": "Full",
+                        "ValueType": "Edm.String"
+                    },
+                    {
+                        "Key": "WasGroupRestricted",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                    },
+                    {
+                        "Key": "EnableInterleaving",
+                        "Value": "false",
+                        "ValueType": "Edm.Boolean"
+                    },
+                    {
+                        "Key": "piPageImpression",
+                        "Value": "1_1_1033",
+                        "ValueType": "Edm.String"
+                    },
+                    {
+                        "Key": "InternalRequestId",
+                        "Value": "9a5611ed-110b-60e5-67a2-217e2dc9794e",
+                        "ValueType": "Edm.String"
+                    },
+                    {
+                        "Key": "SerializedQuery",
+                        "Value": "<Query Culture=\"en-US\" EnableStemming=\"False\" EnablePhonetic=\"False\" EnableNicknames=\"False\" IgnoreAllNoiseQuery=\"True\" SummaryLength=\"180\" MaxSnippetLength=\"180\" DesiredSnippetLength=\"90\" KeywordInclusion=\"0\" QueryText=\"WorkId:5516875426839210968\" QueryTemplate=\"\" TrimDuplicates=\"False\" Site=\"50acb94b-3726-4283-aa2e-b4775acf9db5\" Web=\"660e9e4f-9d9d-4d42-8269-cc1b72a003cb\" KeywordType=\"True\" HiddenConstraints=\"\" />",
+                        "ValueType": "Edm.String"
+                    }
+                ]
+            },
+            "SecondaryQueryResults": {
+                "__metadata": {
+                    "type": "Collection(Microsoft.Office.Server.Search.REST.QueryResult)"
+                },
+                "results": [
+                    
+                ]
+            },
+            "SpellingSuggestion": null,
+            "TriggeredRules": {
+                "__metadata": {
+                    "type": "Collection(Edm.Guid)"
+                },
+                "results": [
+                    
+                ]
+            }
+        }
+    }
+}
