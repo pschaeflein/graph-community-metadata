@@ -47,3 +47,24 @@ op Get(
   ...ODataExpandParameter,
   ...CommonParameters,
 ): SPListItemResponse;
+
+@route("/{serverRelativeSiteUrl}/_api/web/lists/{id}/items/{itemId}/FieldValuesAsText")
+/**
+ * Returns the field values of a specific list item rendered as plain text.
+ */
+op GetFieldValuesAsText(
+  /**
+   * The Id of the list.
+   */
+  @path
+  @format("uuid")
+  id: string,
+
+  /**
+   * The integer Id of the list item.
+   */
+  @path
+  itemId: int32,
+
+  ...CommonParameters,
+): SPListItemResponse;

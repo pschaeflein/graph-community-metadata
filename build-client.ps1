@@ -80,6 +80,8 @@ $ListsItemItemRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/Item/Items/
 (Get-Content $ListsItemItemRequestBuilder) -replace "/_api/web/lists/{id}", "/_api/web/lists/getById('{id}')" | Set-Content $ListsItemItemRequestBuilder
 $ListsItemItemWithItemIdRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/Item/Items/Item/WithItemItemRequestBuilder.cs"
 (Get-Content $ListsItemItemWithItemIdRequestBuilder) -replace "/_api/web/lists/{id}/items/{itemId}", "/_api/web/lists/getById('{id}')/items({itemId})" | Set-Content $ListsItemItemWithItemIdRequestBuilder
+$FieldValuesAsTextRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/Item/Items/Item/FieldValuesAsText/FieldValuesAsTextRequestBuilder.cs"
+(Get-Content $FieldValuesAsTextRequestBuilder) -replace "/_api/web/lists/{id}/items/{itemId}/FieldValuesAsText", "/_api/web/lists/getById('{id}')/items({itemId})/FieldValuesAsText" | Set-Content $FieldValuesAsTextRequestBuilder
 
 # - Remove the 'With___' bits from /list/GetByTitle...
 $ListsRequestBuilder = "$apiclientFolder/Item/_api/Web/Lists/ListsRequestBuilder.cs"
